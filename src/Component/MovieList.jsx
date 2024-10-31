@@ -47,12 +47,7 @@ const MovieList = ({ title, data }) => {
               <div className="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full cursor-pointer">
                 <div className="absolute top-0 left-0 w-full h-full bg-black/40" />
                 <img
-                  // src={`${import.meta.env.VITE_IMG_URL}${item.poster_path}`}
-                  src={
-                    item.poster_path
-                      ? `${import.meta.env.VITE_IMG_URL}${item.poster_path}`
-                      : ImgTemp
-                  }
+                  src={`${import.meta.env.VITE_IMG_URL}${item.poster_path}`}
                   alt={item.name}
                   className="w-full h-full object-cover"
                 />
