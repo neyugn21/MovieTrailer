@@ -1,0 +1,16 @@
+.search-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  &:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(242, 123, 123);
+    color: white;
+    border: none;
+  }
+}
+.input-search {
+  border: none;
+  outline: none;
+  padding: 10px;
+}
